@@ -6,9 +6,9 @@ let fname = "bikund",
   lname = "kumar";
 console.log(fname, lname);
 
-const num1 = 20;
+// const num1 = 20;
 // num1 = 22;
-console.log(num1);
+// console.log(num1);
 
 let city = "noida"; // string literal
 console.log(city);
@@ -61,15 +61,43 @@ let thala_for_reason = 7;
 
 const cricket = {
   hitman: "Rohit Sharma$",
-  chikku: 'Virat Kohli$',
+  chikku: "Virat Kohli$",
   caption_cool: `Dhoni${thala_for_reason}`,
 };
 
-cricket.hitman = 'Bhada Pav';   // Update 
+cricket.hitman = "Bhada Pav"; // Update
 console.log(cricket.chikku);
 console.log(cricket.caption_cool);
 console.log(cricket.hitman);
 
+let person = { name: "bunny", age: "19" };
+person.name = 'john';
+console.log(person.name);
 
+let selectedColor = ['red', 'blue', 'yellow'];
+selectedColor[3] = 'green';
+selectedColor[0] = 'pink';  // update array
+console.log(selectedColor[3]);
+console.log(selectedColor.length);
 
+// typeof selectedColor;
+
+function intro(name, namelast) {
+  console.log('Hello my ' + name + ' ' + namelast);
+}
+
+intro('John','Singh');
+
+function add(number1, number2) {
+  return number1 + number2;
+}
+
+let addition = add(22, 33);
+console.log(addition);
+
+function multiply(firstNum, secondNum) {
+  return firstNum * secondNum;
+}
+
+console.log(multiply(2, 2)); // 2 * 2 = 4;
 
