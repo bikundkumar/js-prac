@@ -44,3 +44,4 @@ console.log(myNumberArray[2]);
 let dog = { name: "Spot", breed: "Dalmatian" };
 console.log(dog.name);
 console.log(dog.breed);
+
